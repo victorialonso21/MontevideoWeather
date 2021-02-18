@@ -1,0 +1,22 @@
+.principal{
+    background-color: rgb(132, 133, 130);
+    height: 70vh;
+    width: 60vw;
+    position: relative;
+    border-radius: 10px;
+}
+
+.principal p {
+    font-weight: 400;
+}
+
+.principal p::first-letter{
+    text-transform: capitalize;
+}
+
+.icono{
+    width: 110px;
+    height: auto;
+    position: relative;
+
+}

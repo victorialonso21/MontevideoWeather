@@ -13,6 +13,7 @@ function App() {
     imagen:""
   })
 
+  
   const getDatos = async ()=> {
      await fetch("https://api.openweathermap.org/data/2.5/weather?q=Montevideo&lang=ES&units=metric&appid=30ee10d9506e36c32504ceee70e522d4")
     .then(
